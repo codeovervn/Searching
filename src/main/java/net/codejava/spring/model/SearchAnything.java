@@ -1,7 +1,7 @@
 package net.codejava.spring.model;
 
 /**
- * @Author DungLT
+ * @Author Sakekun
  * @CreateDate 2018/08/18 10:50:23
  * */
 public class SearchAnything {

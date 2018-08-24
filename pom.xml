@@ -45,7 +45,6 @@
 			<scope>runtime</scope>
 		</dependency>
 
-
 		<!-- Servlet Spec -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -64,12 +63,37 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>		
 		</dependency>
+
+		<!-- MYSQL Spec -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.39</version>
-        </dependency>
+		</dependency>
 
+		<!-- JSON Spec -->
+		<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.10</version>
+		</dependency>
+
+		<!-- PDF Spec -->
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
+			<version>5.5.10</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.4</version>
+		</dependency>
 	</dependencies>
 
 	<build>

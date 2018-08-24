@@ -12,6 +12,8 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
+import net.codejava.spring.dao.SearchAnythingTestDAO;
+import net.codejava.spring.dao.SearchAnythingTestDAOImpl;
 import net.codejava.spring.dao.SearchAnythingDAO;
 import net.codejava.spring.dao.SearchAnythingDAOImpl;
 import net.codejava.spring.dao.SearchAnythingFormDAO;
@@ -20,7 +22,7 @@ import net.codejava.spring.dao.SearchAnythingFormDAOImpl;
 @Configuration
 @ComponentScan(basePackages="net.codejava.spring")
 @EnableWebMvc
-public class MvcConfiguration extends WebMvcConfigurerAdapter{
+public class MvcConfiguration extends WebMvcConfigurerAdapter {
 
 	@Bean
 	public ViewResolver getViewResolver(){
@@ -59,6 +61,11 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 	@Bean
 	public SearchAnythingFormDAO getSearchAnythingFormDAO() {
 		return new SearchAnythingFormDAOImpl(getDataSource());
+	}
+
+	@Bean
+	public SearchAnythingTestDAO getSearchAnything2DAO() {
+		return new SearchAnythingTestDAOImpl(getDataSource());
 	}
 	/*@Bean
 	public ContactDAO getContactDAO() {

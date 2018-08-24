@@ -20,14 +20,14 @@ import net.codejava.spring.model.SearchAnythingForm;
 /**
  * This controller routes accesses to the application to the appropriate
  * hanlder methods. 
- * @author DungLT
+ * @author Sakekun
  *
  */
 @Controller
 public class SearchAnythingFormController {
 
 	/** Create */
-	// DungLT ADD 2018/08/18 Start
+	// Sakekun ADD 2018/08/18 Start
 	@Autowired
 	SearchAnythingFormDAO searchAnythingFormDAO;
 
@@ -97,5 +97,5 @@ public class SearchAnythingFormController {
 		return new ModelAndView("redirect:/");
 	}*/
 	//SearchAnything
-	// DungLT ADD 2018/08/18 End
+	// Sakekun ADD 2018/08/18 End
 }

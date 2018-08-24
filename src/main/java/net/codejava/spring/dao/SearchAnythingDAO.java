@@ -6,7 +6,7 @@ import net.codejava.spring.model.SearchAnything;
 
 /**
  * Defines DAO operations for the contact model.
- * @author DungLT
+ * @author Sakekun
  *
  */
 public interface SearchAnythingDAO {

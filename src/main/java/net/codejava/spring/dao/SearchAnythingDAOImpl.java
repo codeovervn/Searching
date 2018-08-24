@@ -21,7 +21,7 @@ import net.codejava.spring.model.SearchAnything;
 
 /**
  * An implementation of the ContactDAO interface.
- * @author DungLT
+ * @author Sakekun
  *
  */
 public class SearchAnythingDAOImpl implements SearchAnythingDAO {

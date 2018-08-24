@@ -4,7 +4,7 @@ package net.codejava.spring.model;
  * @Author Sakekun
  * @CreateDate 2018/08/18 10:50:23
  * */
-public class SearchAnythingForm {
+public class SearchAnythingTest {
 
 	private int ID;
 	private String SEARCH_KEY;
@@ -13,11 +13,13 @@ public class SearchAnythingForm {
 	private String DATE_CREATE_SEARCH;
 	private String DATE_UPDATE_SEARCH;
 	private int DEL_FLG;
+	private String SEARCH_PERSON_CD;
+	private String SEARCH_PERSON_NAME;
 
-	public SearchAnythingForm() {
+	public SearchAnythingTest() {
 	}
 
-	public SearchAnythingForm(int id, String searchKey, String searchContents, int searchNum, String dateCreateSearch, String dateUpdateSearch, int delFlg) {
+	public SearchAnythingTest(int id, String searchKey, String searchContents, int searchNum, String dateCreateSearch, String dateUpdateSearch, int delFlg, String searchPersonCd, String searchPersonName) {
 		this.ID = id;
 		this.SEARCH_KEY = searchKey;
 		this.SEARCH_CONTENTS = searchContents;
@@ -25,6 +27,8 @@ public class SearchAnythingForm {
 		this.DATE_CREATE_SEARCH = dateCreateSearch;
 		this.DATE_UPDATE_SEARCH = dateUpdateSearch;
 		this.DEL_FLG = delFlg;
+		this.SEARCH_PERSON_CD = searchPersonCd;
+		this.SEARCH_PERSON_NAME = searchPersonName;
 	}
 
 	/** Auto gen SETTER/GETTER method */
@@ -56,6 +60,14 @@ public class SearchAnythingForm {
 		this.DEL_FLG = delFlg;
 	}
 
+	public void setSearchPersonCd(String searchPersonCd) {
+		this.SEARCH_PERSON_CD = searchPersonCd;
+	}
+
+	public void setSearchPersonName(String searchPersonName) {
+		this.SEARCH_PERSON_NAME = searchPersonName;
+	}
+
 	public int getId() {
 		return ID;
 	}
@@ -82,5 +94,21 @@ public class SearchAnythingForm {
 
 	public int getDelFlg() {
 		return DEL_FLG;
+	}
+
+	public String getSearchPersonCd() {
+		return SEARCH_PERSON_CD;
+	}
+
+	public String getSearchPersonName() {
+		return SEARCH_PERSON_NAME;
+	}
+
+	public String setSearchPersonCd() {
+		return SEARCH_PERSON_CD;
+	}
+
+	public String setSearchPersonName() {
+		return SEARCH_PERSON_NAME;
 	}
 }

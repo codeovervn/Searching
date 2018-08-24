@@ -22,7 +22,7 @@ import net.codejava.spring.model.SearchAnythingForm;
 
 /**
  * An implementation of the ContactDAO interface.
- * @author DungLT
+ * @author Sakekun
  *
  */
 public class SearchAnythingFormDAOImpl implements SearchAnythingFormDAO {

@@ -18,19 +18,19 @@ import net.codejava.spring.model.SearchAnything;
 /**
  * This controller routes accesses to the application to the appropriate
  * hanlder methods. 
- * @author DungLT
+ * @author Sakekun
  *
  */
 @Controller
 public class SearchAnythingController {
 
 	/** Create */
-	// DungLT ADD 2018/08/18 Start
+	// Sakekun ADD 2018/08/18 Start
 	@Autowired
 	SearchAnythingDAO searchAnythingDAO;
 
 	@RequestMapping(value="/")
-	public ModelAndView init(ModelAndView model) throws IOException{
+	public ModelAndView init(ModelAndView model) throws IOException {
 		List<SearchAnything> listSearchAnything = searchAnythingDAO.list();
 		model.addObject("listSearchAnything", listSearchAnything);
 		List<SearchAnything> listSearchAnythingBk = searchAnythingDAO.listBk();
@@ -40,18 +40,14 @@ public class SearchAnythingController {
 		model.addObject("searchAnything", searchAnything);
 
 		return model;
+		
 	}
-
-	/*@RequestMapping(value = "/saveSearchAnything", method = RequestMethod.POST)
-	public ModelAndView saveSearchAnything(@ModelAttribute SearchAnything searchAnything) {
-		searchAnythingDAO.saveOrUpdate(searchAnything);
-		return new ModelAndView("redirect:/");
-	}*/
 
 	@RequestMapping(value = "/skipSearchAnything", method = RequestMethod.GET)
 	public ModelAndView skipSearchAnything(HttpServletRequest request) {
 		int searchAnythingId = Integer.parseInt(request.getParameter("id"));
 		searchAnythingDAO.skip(searchAnythingId);
+
 		return new ModelAndView("redirect:/");
 	}
 
@@ -59,6 +55,7 @@ public class SearchAnythingController {
 	public ModelAndView deleteSearchAnything(HttpServletRequest request) {
 		int searchAnythingId = Integer.parseInt(request.getParameter("id"));
 		searchAnythingDAO.delete(searchAnythingId);
+
 		return new ModelAndView("redirect:/");
 	}
 
@@ -66,6 +63,7 @@ public class SearchAnythingController {
 	public ModelAndView revertSearchAnything(HttpServletRequest request) {
 		int searchAnythingId = Integer.parseInt(request.getParameter("id"));
 		searchAnythingDAO.revert(searchAnythingId);
+
 		return new ModelAndView("redirect:/");
 	}
 
@@ -73,8 +71,16 @@ public class SearchAnythingController {
 	public ModelAndView copySearchAnything(HttpServletRequest request) {
 		int searchAnythingId = Integer.parseInt(request.getParameter("id"));
 		searchAnythingDAO.copy(searchAnythingId);
+
 		return new ModelAndView("redirect:/");
 	}
+
+	/*@RequestMapping(value = "/saveSearchAnything", method = RequestMethod.POST)
+	public ModelAndView saveSearchAnything(@ModelAttribute SearchAnything searchAnything) {
+		searchAnythingDAO.saveOrUpdate(searchAnything);
+
+		return new ModelAndView("redirect:/");
+	}*/
 
 	/*@RequestMapping(value = "/editSearchAnything", method = RequestMethod.GET)
 	public ModelAndView editSearchAnything(HttpServletRequest request) {
@@ -95,5 +101,5 @@ public class SearchAnythingController {
 		return model;
 	}*/
 	//SearchAnything
-	// DungLT ADD 2018/08/18 End
+	// Sakekun ADD 2018/08/18 End
 }
