@@ -1,0 +1,320 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - lectures",
+    "totalResults": "172000000",
+    "searchTerms": "lectures",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017576662512468239146:omuauf_lfve"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - lectures",
+    "totalResults": "172000000",
+    "searchTerms": "lectures",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017576662512468239146:omuauf_lfve"
+   }
+  ]
+ },
+ "context": {
+  "title": "CS Curriculum",
+  "facets": [
+   [
+    {
+     "label": "lectures",
+     "anchor": "Lectures",
+     "label_with_op": "more:lectures"
+    }
+   ],
+   [
+    {
+     "label": "assignments",
+     "anchor": "Assignments",
+     "label_with_op": "more:assignments"
+    }
+   ],
+   [
+    {
+     "label": "reference",
+     "anchor": "Reference",
+     "label_with_op": "more:reference"
+    }
+   ]
+  ]
+ },
+ "searchInformation": {
+  "searchTime": 0.126641,
+  "formattedSearchTime": "0.13",
+  "totalResults": "172000000",
+  "formattedTotalResults": "172,000,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Gibbons Lecture Series - The University of Auckland",
+   "htmlTitle": "Gibbons \u003cb\u003eLecture\u003c/b\u003e Series - The University of Auckland",
+   "link": "https://www.cs.auckland.ac.nz/gibbons_lectures/",
+   "displayLink": "www.cs.auckland.ac.nz",
+   "snippet": "The Department hosts an annual series of lectures intended to describe ongoing \nresearch in Computer Science to a wider public.",
+   "htmlSnippet": "The Department hosts an annual series of \u003cb\u003electures\u003c/b\u003e intended to describe ongoing \u003cbr\u003e\nresearch in Computer Science to a wider public.",
+   "formattedUrl": "https://www.cs.auckland.ac.nz/gibbons_lectures/",
+   "htmlFormattedUrl": "https://www.cs.auckland.ac.nz/gibbons_\u003cb\u003electures\u003c/b\u003e/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "183",
+      "height": "276",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1cEgOaiWE8z9gPa_UwvJDTFtgyCL56V1fqljwshQdFfUsyI2CQve0Rdg"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.cs.auckland.ac.nz/en/about/ourdepartment/gibbons-lectures/_jcr_content/par/image.img.jpg/1490740692929.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Lecture Material",
+   "htmlTitle": "\u003cb\u003eLecture\u003c/b\u003e Material",
+   "link": "http://www.cs.toronto.edu/~jm/340S/lectures.html",
+   "displayLink": "www.cs.toronto.edu",
+   "snippet": "All lecture notes are available in PDF 2-slide or 6-slide per page format. \nIntroduction, 2-slides/page , or 6-slides/page , ...More Introduction..., 2-slides/\npage , or ...",
+   "htmlSnippet": "All \u003cb\u003electure\u003c/b\u003e notes are available in PDF 2-slide or 6-slide per page format. \u003cbr\u003e\nIntroduction, 2-slides/page , or 6-slides/page , ...More Introduction..., 2-slides/\u003cbr\u003e\npage , or&nbsp;...",
+   "cacheId": "pWm6P4U0RZMJ",
+   "formattedUrl": "www.cs.toronto.edu/~jm/340S/lectures.html",
+   "htmlFormattedUrl": "www.cs.toronto.edu/~jm/340S/\u003cb\u003electures\u003c/b\u003e.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "John Hennessy and David Patterson Turing Lecture",
+   "htmlTitle": "John Hennessy and David Patterson Turing \u003cb\u003eLecture\u003c/b\u003e",
+   "link": "https://www.acm.org/hennessy-patterson-turing-lecture",
+   "displayLink": "www.acm.org",
+   "snippet": "2017 ACM A.M. Turing Award recipients John Hennessy and David Patterson \ndelivered the Turing Lecture on June 4 at ISCA 2018 in Los Angeles. The lecture\n ...",
+   "htmlSnippet": "2017 ACM A.M. Turing Award recipients John Hennessy and David Patterson \u003cbr\u003e\ndelivered the Turing \u003cb\u003eLecture\u003c/b\u003e on June 4 at ISCA 2018 in Los Angeles. The \u003cb\u003electure\u003c/b\u003e\u003cbr\u003e\n&nbsp;...",
+   "cacheId": "8V-Hwo9_hxkJ",
+   "formattedUrl": "https://www.acm.org/hennessy-patterson-turing-lecture",
+   "htmlFormattedUrl": "https://www.acm.org/hennessy-patterson-turing-\u003cb\u003electure\u003c/b\u003e",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJBbBx3LiuLZOoIAj3lNrEsWFIz49yzNVJrFQlWDOHHiTjUkYJn0riqSw"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+      "og:title": "John Hennessy and David Patterson Deliver Turing Lecture at ISCA 2018",
+      "og:description": "webpage to host livestream of hennessy-patterson turing lecture",
+      "og:type": "website",
+      "og:image": "https://www.acm.org/images/acm_rgb_grad_pos_diamond.png",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@theofficialacm",
+      "twitter:title": "John Hennessy and David Patterson Deliver Turing Lecture at ISCA 2018",
+      "twitter:description": "webpage to host livestream of hennessy-patterson turing lecture",
+      "twitter:image": "https://www.acm.org/images/acm_rgb_grad_pos_diamond.png",
+      "og:url": "https://www.acm.org/hennessy-patterson-turing-lecture"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.acm.org/images/acm_rgb_grad_pos_diamond.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Stanford Engineering Everywhere | CS223A - Introduction to Robotics",
+   "htmlTitle": "Stanford Engineering Everywhere | CS223A - Introduction to Robotics",
+   "link": "https://see.stanford.edu/Course/CS223A",
+   "displayLink": "see.stanford.edu",
+   "snippet": "These examinations will be open book. Lectures will be based mainly, but not \nexclusively, on material in the Lecture Notes book. Lectures will follow roughly \nthe ...",
+   "htmlSnippet": "These examinations will be open book. \u003cb\u003eLectures\u003c/b\u003e will be based mainly, but not \u003cbr\u003e\nexclusively, on material in the \u003cb\u003eLecture\u003c/b\u003e Notes book. \u003cb\u003eLectures\u003c/b\u003e will follow roughly \u003cbr\u003e\nthe&nbsp;...",
+   "cacheId": "k_V6ESskybkJ",
+   "formattedUrl": "https://see.stanford.edu/Course/CS223A",
+   "htmlFormattedUrl": "https://see.stanford.edu/Course/CS223A",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "148",
+      "height": "208",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS1CShKw9ZV2Sf7hxaXIT6I8sd3XDuOP29bIanQZ-GSYBUCwsx7yPm0YGkv"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://see.stanford.edu/Content/Images/Instructors/khatib.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "lectures",
+     "displayName": "Lectures",
+     "label_with_op": "more:lectures"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Lectures",
+   "htmlTitle": "\u003cb\u003eLectures\u003c/b\u003e",
+   "link": "https://www.cis.upenn.edu/~cis160/current/lectures.html",
+   "displayLink": "www.cis.upenn.edu",
+   "snippet": "Lectures are held in CHEM102 every Tuesday and Thursday from 9:00-10:30 AM \n(section 001) and 10:30-12:00 PM (section 002). While lecture attendance is ...",
+   "htmlSnippet": "\u003cb\u003eLectures\u003c/b\u003e are held in CHEM102 every Tuesday and Thursday from 9:00-10:30 AM \u003cbr\u003e\n(section 001) and 10:30-12:00 PM (section 002). While \u003cb\u003electure\u003c/b\u003e attendance is&nbsp;...",
+   "cacheId": "k9487vOAo70J",
+   "formattedUrl": "https://www.cis.upenn.edu/~cis160/current/lectures.html",
+   "htmlFormattedUrl": "https://www.cis.upenn.edu/~cis160/current/\u003cb\u003electures\u003c/b\u003e.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "lectures",
+     "displayName": "Lectures",
+     "label_with_op": "more:lectures"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "COS 226 Lectures (Spring 2018)",
+   "htmlTitle": "COS 226 \u003cb\u003eLectures\u003c/b\u003e (Spring 2018)",
+   "link": "http://www.cs.princeton.edu/courses/archive/spr18/cos226/lectures.php",
+   "displayLink": "www.cs.princeton.edu",
+   "snippet": "Lectures. Below are links to the lecture slides. All the video lectures are available \non Princeton Salon. Those lectures marked with a \"*\" (star) are optional.",
+   "htmlSnippet": "\u003cb\u003eLectures\u003c/b\u003e. Below are links to the \u003cb\u003electure\u003c/b\u003e slides. All the video \u003cb\u003electures\u003c/b\u003e are available \u003cbr\u003e\non Princeton Salon. Those \u003cb\u003electures\u003c/b\u003e marked with a &quot;*&quot; (star) are optional.",
+   "cacheId": "tNsI7iOML_oJ",
+   "formattedUrl": "www.cs.princeton.edu/courses/archive/spr18/cos226/lectures.php",
+   "htmlFormattedUrl": "www.cs.princeton.edu/courses/archive/spr18/cos226/\u003cb\u003electures\u003c/b\u003e.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "lectures",
+     "displayName": "Lectures",
+     "label_with_op": "more:lectures"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Lecture Notes on Operating Systems",
+   "htmlTitle": "\u003cb\u003eLecture\u003c/b\u003e Notes on Operating Systems",
+   "link": "https://www.cse.iitb.ac.in/~mythili/os/",
+   "displayLink": "www.cse.iitb.ac.in",
+   "snippet": "This page serves as a reference for courses on operating systems (OS) and \nrelated topics in computer systems. The material consists of video lectures, \npractice ...",
+   "htmlSnippet": "This page serves as a reference for courses on operating systems (OS) and \u003cbr\u003e\nrelated topics in computer systems. The material consists of video \u003cb\u003electures\u003c/b\u003e, \u003cbr\u003e\npractice&nbsp;...",
+   "cacheId": "EnG6hw3N0koJ",
+   "formattedUrl": "https://www.cse.iitb.ac.in/~mythili/os/",
+   "htmlFormattedUrl": "https://www.cse.iitb.ac.in/~mythili/os/"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Distinguished Lecture Series | Computer Science at UBC - Vancouver",
+   "htmlTitle": "Distinguished \u003cb\u003eLecture\u003c/b\u003e Series | Computer Science at UBC - Vancouver",
+   "link": "https://www.cs.ubc.ca/news-events/distinguished-lecture-series",
+   "displayLink": "www.cs.ubc.ca",
+   "snippet": "The UBC Department of Computer Science Distinguished Lecture Series brings \nleading researchers, from a variety of research areas, to UBC enabling an ...",
+   "htmlSnippet": "The UBC Department of Computer Science Distinguished \u003cb\u003eLecture\u003c/b\u003e Series brings \u003cbr\u003e\nleading researchers, from a variety of research areas, to UBC enabling an&nbsp;...",
+   "cacheId": "9PqoZD7VTcYJ",
+   "formattedUrl": "https://www.cs.ubc.ca/news-events/distinguished-lecture-series",
+   "htmlFormattedUrl": "https://www.cs.ubc.ca/news-events/distinguished-\u003cb\u003electure\u003c/b\u003e-series",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "348",
+      "height": "145",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX4tS6x47LKjsoIz9cYhpWwPLMqz_LLxe78ZYYiC1RI6O6MR_D-TOos55"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.cs.ubc.ca/sites/cs/files/imagecache/node_image/18924134402_622293178b_k.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CSC2535S : lectures",
+   "htmlTitle": "CSC2535S : \u003cb\u003electures\u003c/b\u003e",
+   "link": "http://www.cs.toronto.edu/~hinton/csc2535/lectures.html",
+   "displayLink": "www.cs.toronto.edu",
+   "snippet": "CSC2535 Spring 2013 - Lectures. DRAFT LECTURE SCHEDULE: SUBJECT TO \nCHANGE. The final versions of the lecture notes will generally be posted on ...",
+   "htmlSnippet": "CSC2535 Spring 2013 - \u003cb\u003eLectures\u003c/b\u003e. DRAFT \u003cb\u003eLECTURE\u003c/b\u003e SCHEDULE: SUBJECT TO \u003cbr\u003e\nCHANGE. The final versions of the \u003cb\u003electure\u003c/b\u003e notes will generally be posted on&nbsp;...",
+   "cacheId": "N8wrLohIrBUJ",
+   "formattedUrl": "www.cs.toronto.edu/~hinton/csc2535/lectures.html",
+   "htmlFormattedUrl": "www.cs.toronto.edu/~hinton/csc2535/\u003cb\u003electures\u003c/b\u003e.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CS 1110: Lectures",
+   "htmlTitle": "CS 1110: \u003cb\u003eLectures\u003c/b\u003e",
+   "link": "https://www.cs.cornell.edu/courses/cs1110/2018sp/lectures/index.php",
+   "displayLink": "www.cs.cornell.edu",
+   "snippet": "This page lists a summary of the lectures for each week, in reverse chronological \norder. This is your go-to page for downloading in-class handouts and getting ...",
+   "htmlSnippet": "This page lists a summary of the \u003cb\u003electures\u003c/b\u003e for each week, in reverse chronological \u003cbr\u003e\norder. This is your go-to page for downloading in-class handouts and getting&nbsp;...",
+   "cacheId": "jgx0FUIIdUsJ",
+   "formattedUrl": "https://www.cs.cornell.edu/courses/cs1110/.../lectures/index.php",
+   "htmlFormattedUrl": "https://www.cs.cornell.edu/courses/cs1110/.../\u003cb\u003electures\u003c/b\u003e/index.php",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "223",
+      "height": "226",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkATFJ6f6bCUiJd5P5X1K98--uKQ5xbZsp2_-W3MBonjM5dl_G9E45GLY"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.cs.cornell.edu/courses/cs1110/2018sp/images/pegasus.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "lectures",
+     "displayName": "Lectures",
+     "label_with_op": "more:lectures"
+    }
+   ]
+  }
+ ]
+}
